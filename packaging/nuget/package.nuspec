@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
     <metadata minClientVersion="2.5">
         <id>BerkeleyDB-4_8_30-Cpp</id>
-        <version>4.8.30.1</version>
+        <version>4.8.30.2</version>
         <title>Berkeley DB 4.8.30 for C/C++</title>
         <authors>Oracle</authors>
         <owners>kobake</owners>
@@ -12,7 +12,7 @@
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
         <description>The Berkeley DB products use simple function-call APIs for data access and management.</description>
         <summary>Berkeley DB 4.8.30 library packaged for Visual Studio. This library is experimental, so use at your own risk.</summary>
-        <releaseNotes>First edition.</releaseNotes>
+        <releaseNotes>Removed some headers in package so as to contain only db.h and db_cxx.h.</releaseNotes>
         <copyright>Copyright (c) 1990-2009 Oracle.  All rights reserved.</copyright>
         <tags>native, berkeley, db, berkeleydb, C++</tags>
         <dependencies>
@@ -21,7 +21,8 @@
     <files>
         <file src="package.targets" target="build\native\BerkeleyDB-4_8_30-Cpp.targets" />
 
-        <file src="..\..\include\*.h" target="build\native\include" />
+        <file src="..\..\include\db.h"     target="build\native\include" />
+        <file src="..\..\include\db_cxx.h" target="build\native\include" />
 
         <file src="..\..\lib\libdb48.lib"  target="build\native\bin\libdb48.lib" />
         <file src="..\..\lib\libdb48d.lib" target="build\native\bin\libdb48d.lib" />
