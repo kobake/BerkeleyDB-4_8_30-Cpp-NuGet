@@ -6,8 +6,8 @@
         <title>Berkeley DB 4.8.30 for C/C++</title>
         <authors>Oracle</authors>
         <owners>kobake</owners>
-        <licenseUrl>https://raw.githubusercontent.com/kobake/BerkeleyDB-4_8_30-nuget/master/LICENSE.txt</licenseUrl>
-        <projectUrl>https://github.com/kobake/BerkeleyDB-4_8_30-nuget</projectUrl>
+        <licenseUrl>https://raw.githubusercontent.com/kobake/BerkeleyDB-4_8_30-Cpp-NuGet/master/LICENSE.txt</licenseUrl>
+        <projectUrl>https://github.com/kobake/BerkeleyDB-4_8_30-Cpp-NuGet</projectUrl>
         <iconUrl>http://www.oracle.com/ocom/groups/public/@otn/documents/digitalasset/2858134.gif</iconUrl>
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
         <description>The Berkeley DB products use simple function-call APIs for data access and management.</description>
